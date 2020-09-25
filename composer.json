@@ -1,16 +1,8 @@
 {
-    "require-dev": {
-        "phpunit/phpunit": "^9"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/pikknz/fizzbuzz"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Noel\\Home\\": "/var/www/html/fizzbuzz/src/"
-        }
-    }
+    "name": "pikknz/fizzbuzz",
+    "type": "library",
+    "description": "Library to implement Fizzbuzz",
+    "license": "All rights reserved.",
+    "version": "0.0.1",
+    "keywords": ["Fizz", "Buzz"] 
 }
