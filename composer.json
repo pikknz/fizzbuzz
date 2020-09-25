@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pikknz/fizzbuzz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Noel\\Home\\": "/var/www/html/fizzbuzz/src/"
+        }
+    }
+}
